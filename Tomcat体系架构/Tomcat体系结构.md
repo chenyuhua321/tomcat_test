@@ -3,8 +3,7 @@
 ## 一、Tomcat是什么
 
 tomcat是一个http服务器，一个servlet容器
-
-![image-20200403150321004](https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403150321004.png)
+<img src="https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403150321004.png"/>
 
 核心组件：连接器Connector 和 Servlet容器Container
 
@@ -15,16 +14,15 @@ tomcat是一个http服务器，一个servlet容器
 一个容器可以有多个连接
 
 连接器：
+<img src="https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403151857931.png"/>
 
-![image-20200403151857931](https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403151857931.png)
 
 EndPoint监听端口接收返回请求
 
 Processor将请求转为Tomcat的Request和Response
 
 Adapter将Request转为ServletRequest
-
-![image-20200403151020049](https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403151020049.png)
+<img src="https://gitee.com/chenyuhua321/tomcat_test/blob/master/Image/image-20200403151020049.png"/>
 
 而容器的结构。
 
