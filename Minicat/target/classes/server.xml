@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Server>
+    <Service>
+        <Connector port="8080"/>
+        <Engine>
+            <Host name="localhost" appBase="D:\Minicat\src\main\webapps">
+                <Context path="/demo1" docBase="demo1">
+                </Context>
+                <Context path="/demo2" docBase="demo2">
+                </Context>
+            </Host>
+        </Engine>
+    </Service>
+</Server>
